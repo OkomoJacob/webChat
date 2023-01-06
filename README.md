@@ -6,17 +6,13 @@ A full-stack MERN chat application
 #### Set up Express Routes
 
 ```javascript
-import express from "express";
-import  from "mongoose";
-import mongoose, cors, multer, helmet,  morgan, path, from "sources";
+import express mongoose, cors, multer, helmet,  morgan, path, from "wherever";
 
 /* CONFIGURATIONS & MIDDLEWARE SETUP*/
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
 app.use(express.json());
-app.use(helmet());
-app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));
 
 /* SET UP FILE STORAGE */
 const storage = multer.diskStorage({
@@ -43,9 +39,6 @@ mongoose
     app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
   })
   .catch((error) => console.log(`${error} did not connect`));
-
-mongoose.set("strictQuery", true);
-
 ```
 
 ### Resources
