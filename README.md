@@ -1,5 +1,5 @@
-# webChat
-A full-stack MERN chat application
+# MERN Powered Web Chat App
+A full-stack MERN chat application that enables authenticated user to add, view, comment & like posts. they can as well add/remove friends.
 
 ## Server 
 - This entails the server configuration & set up.
