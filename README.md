@@ -4,7 +4,7 @@ A full-stack MERN chat application that enables authenticated user to add, view,
 ## Client(Frontend) Section
 - [x] Create a new react app using npx.
 - First ensure you have npx globally installed in your system.
-``bash
+```bash
 npm i -g npx
 ```
 - Use npx to create a new react app in the root folder like so:
