@@ -8,7 +8,7 @@ A full-stack MERN chat application that enables authenticated user to add, view,
 npm i -g npx
 ```
 - Use npx to create a new react app in the root folder like so:
-```shell
+```jsx
 npx create-react-app client
 ```
 - Change Directory(cd) into the newly created react app then install the necessary packages.
