@@ -1,4 +1,3 @@
-// Make src the source compilation folder.
 {
     "compilerOptions": {
         "baseUrl": "src"
