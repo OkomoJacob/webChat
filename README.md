@@ -4,10 +4,12 @@ A full-stack MERN chat application that enables authenticated user to add, view,
 ## Client(Frontend) Section
 - [x] Create a new react app using npx.
 - First ensure you have npx globally installed in your system.
+
 ```bash
 npm i -g npx
 ```
 - Use npx to create a new react app in the root folder like so:
+
 ```jsx
 npx create-react-app client
 ```
@@ -16,7 +18,7 @@ npx create-react-app client
 ```shell
 npm i react-redux @reduxjs/toolkit redux-persist react-dropzone dotenv formik yup react-router-dom@6 @mui/material @emotion/react @emotion/styled @mui/icons-material
 ```
-
+- Grab [Rubik](https://fonts.google.com/specimen/Rubik?query=rubik) google fonts.
 ## Server 
 - This entails the server configuration & set up.
 #### Set up Express Routes
