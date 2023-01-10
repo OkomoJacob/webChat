@@ -165,8 +165,9 @@ const Navbar = () => {
             alignItems="center"
             gap="3rem"
           >
-            <IconButton onClick={() => dispatch(setMode())}
-            sx={{
+            <IconButton
+              onClick={() => dispatch(setMode())}
+              sx={{
                 fontSize: "25px",
               }}
             >
