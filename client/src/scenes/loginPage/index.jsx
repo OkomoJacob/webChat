@@ -1,5 +1,5 @@
 import { Box, Typography, useTheme, useMediaQuery } from "@mui/material";
-import Form from "./Form"
+import Form from "./Form";
 
 const LoginPage = () => {
   const theme = useTheme();
@@ -21,11 +21,12 @@ const LoginPage = () => {
         p="2rem"
         m="2rem auto"
         borderRadius="1.5rem"
-        backgroundColor={theme.pallete.background.alt}
+        backgroundColor={theme.palette.background.alt}
       >
         <Typography fontWeight="500" variant="h5" sx={{ mb: "1.5reem" }}>
           Welcome to Web Chat, the Open Social Platform
         </Typography>
+        <Form />
       </Box>
     </Box>
   );
