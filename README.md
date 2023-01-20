@@ -62,4 +62,4 @@ mongoose
 ### Resources
 1. [Salt & Hash passwords with bcrypt](https://heynode.com/blog/2020-04/salt-and-hash-passwords-bcrypt/)
 2. [React Single File Upload Tutorial with Multer, Node, Express](https://www.positronx.io/react-file-upload-tutorial-with-node-express-and-multer/)
-3. 
+3. [Material UI Typography](https://mui.com/material-ui/react-typography/)
