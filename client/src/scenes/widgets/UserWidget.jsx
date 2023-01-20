@@ -124,7 +124,19 @@ const UserWidget = ({ userId, picturePath }) => {
             <EditOutlined sx={{ color: main }} />
           </FlexBetween>
 
-          
+          <FlexBetween gap="1rem">
+            <FlexBetween gap="1rem">
+              <img src="../assets/linkedin.png" alt="linkedin" />
+              <Box>
+                <Typography color={main} fontWeight="500">
+                  LinkedIn
+                </Typography>
+                <Typography color={medium}>Network Platform</Typography>
+              </Box>
+            </FlexBetween>
+            <EditOutlined sx={{ color: main }} />
+          </FlexBetween>
+
         </Box>
       </FlexBetween>
     </WidgetWrapper>
