@@ -2,7 +2,7 @@ import {
   ManageAccountsOutlined,
   EditOutlined,
   LocationOnOutlined,
-  WorkOtlined,
+  WorkOutlineOutlined,
 } from "@mui/icons-material";
 import { Box, Typography, Divider, useTheme } from "@mui/material";
 import UserImage from "components/UserImage";
@@ -136,7 +136,6 @@ const UserWidget = ({ userId, picturePath }) => {
             </FlexBetween>
             <EditOutlined sx={{ color: main }} />
           </FlexBetween>
-
         </Box>
       </FlexBetween>
     </WidgetWrapper>
