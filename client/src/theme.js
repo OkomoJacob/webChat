@@ -1,4 +1,4 @@
-// color design tokens export
+// Color design tokens export
 export const colorTokens = {
     grey: {
       0: "#FFFFFF",
@@ -55,7 +55,7 @@ export const colorTokens = {
               },
             }
           : {
-              // palette values for light mode
+              // Palette values for light mode
               primary: {
                 dark: colorTokens.primary[700],
                 main: colorTokens.primary[500],
